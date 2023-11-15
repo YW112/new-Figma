@@ -15,7 +15,8 @@ body {
 button {
     background-image: url(/images/button.png);
     color: white;
-    margin-left: 400%;
+    margin-left: 700%;
+    margin-top: 20%;
     width: 80px;
     height: 20px
 }
