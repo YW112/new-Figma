@@ -16,9 +16,11 @@ body {
     background-image: url(/images/button.png);
     color: white;
     margin-top: 20%;
-    width: 80px;
-    height: 20px;
+    width: 131.771px;
+    height: 41.343px;
+    flex-shrink: 0;
     grid-area: .Contact_Us;
+    border-radius: 6px;
 }
 
 .header {
@@ -33,7 +35,7 @@ body {
 .container {
     display: grid;
     justify-content: space-between;
-    grid-template-areas: "header header" "section1 joystick" "section2 joystick" "LI joystick" "button1 joystick" "article4 button2" "game-gallery game-gallery";
+    grid-template-areas: "header header" "section1 joystick" "section2 joystick" "LI joystick" "button1 joystick" "article3 button2" "game-gallery game-gallery";
     grid-template-rows: 1fr 0.1fr 2fr 2fr 3fr;
     grid-template-columns: 1.5fr 1.5fr;
     grid-column-start: 1;
@@ -102,6 +104,32 @@ img {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    width: 40%;
-    height: 15%;
+    width: 195px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 40px;
+}
+
+.article3 {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 187.5%;
+}
+
+.button2 {
+    color: #FFF;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.11);
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 187.5%;
+    width: 139px;
+    height: 57px;
+    flex-shrink: 0;
+    margin-left: 80%;
 }
