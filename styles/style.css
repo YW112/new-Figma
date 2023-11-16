@@ -12,7 +12,7 @@ body {
     margin: 0%;
     }
 
-.button10 {
+.button0 {
     background-image: url(/images/button.png);
     color: white;
     margin-top: 20%;
@@ -33,7 +33,7 @@ body {
 .container {
     display: grid;
     justify-content: space-between;
-    grid-template-areas: "header header" "section1 joystick" "section2 joystick" "LI joystick" "button1 joystick" "game-gallery game-gallery";
+    grid-template-areas: "header header" "section1 joystick" "section2 joystick" "LI joystick" "button1 joystick" "article4 button2" "game-gallery game-gallery";
     grid-template-rows: 1fr 0.1fr 2fr 2fr 3fr;
     grid-template-columns: 1.5fr 1.5fr;
     grid-column-start: 1;
