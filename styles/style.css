@@ -133,3 +133,21 @@ img {
     flex-shrink: 0;
     margin-left: 80%;
 }
+
+.game-gallery {
+    display: inline-grid;
+    justify-content: space-between;
+    grid-template-areas: ".fc1 .fc2 .fc3 .fc4"; 
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-area: .game-gallery;
+}
+
+.fc1 {
+    color: #FFF;
+font-family: Rubik, Sans-Serif;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 187.5%;
+}
